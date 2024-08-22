@@ -344,7 +344,7 @@ cv2.destroyAllWindows()
 ### Output:
 ![image](https://github.com/user-attachments/assets/331ff3fc-e40a-4263-8cdf-34e39be32a68)
 
-#### 8. Write and Save the Modified Image:
+## 8. Write and Save the Modified Image:
 ```Python
 import cv2
 img = cv2.imread("sun.JPG")
