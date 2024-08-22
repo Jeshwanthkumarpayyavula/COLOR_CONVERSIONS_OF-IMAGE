@@ -58,9 +58,7 @@ Save the final modified image to your local directory.
 Developed By: JESHWANTH KUMAR P
 Register Number: 212223240114
 ```
-<table>
-  <tr>
-    <td width=50%>
+
 
 ### 1.) Read and display the image
 
@@ -71,18 +69,13 @@ cv2.imshow('Image Window', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ``` 
-  </td>
-  <td>
+ 
 
 ### OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/d3cd7d09-d121-4813-b6dc-56100aff40f1)
 
-  </td>
-  </tr>
-
-   <tr>
-    <td width=50%>
+ 
 
 ### 2.) Draw Shapes and Add Text:
 i)Draw a line from the top-left to the bottom-right of the image.
@@ -97,19 +90,14 @@ cv2.destroyAllWindows()
 
 
 ```
-  </td>
-  <td>
+
 
 ### OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/07cb204d-d080-4573-a838-ea650bfb9ea0)
 
 
-  </td>
-  </tr>
-  <tr>
-    <td width=50%>
-
+ 
 ### ii)Draw a circle at the center of the image.
 ```Python
 import cv2
@@ -132,18 +120,12 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ```
-  </td>
-  <td>
+
 
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/cbedc66f-3d24-43b2-9375-aa1f0e1aa1c0)
 
 
-
-  </td>
-  </tr>
-  <tr>
-    <td>
       
 ### iii)Draw a rectangle around a specific region of interest in the image.
 ```Python
@@ -160,19 +142,13 @@ cv2.imshow('Image Window', res_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-  </td>
-  <td width="50%">
+ 
 
 ### OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/cf1fd2ba-08c8-49c8-83a0-807e1f090876)
 
 
-
-  </td>
-  </tr>
-  <tr>
-    <td width=50%>
       
 ### iv)Add the text "OpenCV Drawing" at the top-left corner of the image.
 
@@ -201,17 +177,12 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ```
-  </td>
-  <td>
+
     
 ### OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/ba904a50-0a6c-4e5b-92a1-fc719083c780)
 
-
-  </td>
-  </tr>
-</table>
 
 ### 3.)Image Color Conversion:
 i)Convert the image from RGB to HSV and display it.
@@ -270,7 +241,7 @@ cv2.destroyAllWindows()
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/5c5ed212-d02d-4e0c-969e-b01821d190ca)
-#### 4. Access and Manipulate Image Pixels:
+## 4. Access and Manipulate Image Pixels:
 ```Python
 import cv2
 
@@ -301,7 +272,7 @@ cv2.destroyAllWindows()
 
 ![image](https://github.com/user-attachments/assets/5a5dd586-9791-4f10-9196-943433d50874)
 
-### 5. Image Resizing:
+## 5. Image Resizing:
 ```Python
 width=600
 height=800
@@ -316,7 +287,7 @@ cv2.destroyAllWindows()
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/8d9e2e92-8e2b-4636-927c-760f9f1cedd3)
-### 6.Image Cropping:
+## 6.Image Cropping:
 ```Python
 import cv2
 
@@ -338,7 +309,7 @@ cv2.destroyAllWindows()
 ### Output:
 ![image](https://github.com/user-attachments/assets/cdd3fdac-85af-4769-8468-2d15103fb275)
 
-### 7.Image Flipping:
+## 7.Image Flipping:
 i.)Flip the original image horizontally and display it.
 ```Python
 
