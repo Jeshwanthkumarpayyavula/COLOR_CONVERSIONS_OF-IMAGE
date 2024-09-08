@@ -59,7 +59,7 @@ Register Number: 212223240114
 ```
 
 
-### i)Read and Display an Image
+### 1)Read and Display an Image
 
 ```Python
 import cv2
@@ -139,7 +139,7 @@ cv2.destroyAllWindows()
       
 ### iii)Draw a rectangle around a specific region of interest in the image.
 ```Python
-#2.
+
 import cv2
 
 img = cv2.imread("lokesh.JPEG")
