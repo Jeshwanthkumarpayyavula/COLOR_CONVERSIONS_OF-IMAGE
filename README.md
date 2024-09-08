@@ -51,13 +51,10 @@ o	Flip the original image vertically and display it.
 ### Step8:
 o	Save the final modified image to your local directory.
 ```
-
-# Program:
-```
 Developed By: JESHWANTH KUMAR P
 Register Number: 212223240114
 ```
-
+# Program:
 
 ### 1)Read and Display an Image
 
