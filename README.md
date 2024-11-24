@@ -51,7 +51,7 @@ Load an image from your local directory and display it.
 ### Step8:
 	Save the final modified image to your local directory.
 ```
-Developed By: P Jeshwanth Kumar
+Developed By: P Jeshwanth kumar
 Register Number: 212223240114
 ```
 # Program:
@@ -81,7 +81,7 @@ i)Draw a line from the top-left to the bottom-right of the image.
 
 import cv2
 img = cv2.imread("lokesh.JPG")
-res = cv2.line(image, (0, 0), (image.shape[1], image.shape[0]), (200, 100, 205), 10)
+res = cv2.line(image, (0, 0),(689,389),(200, 100, 205), 10)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -105,8 +105,7 @@ cv2.destroyAllWindows()
 import cv2
 image = cv2.imread("lokesh.jpg")
 height, width, _ = image.shape
-center_coordinates = (width // 2, height // 2)
-res = cv2.circle(image, center_coordinates, 150, (255,0, 0), 10)
+res = cv2.circle(image,(width // 2, height // 2), 150, (255,0, 0), 10)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -129,11 +128,7 @@ cv2.destroyAllWindows()
 
 import cv2
 image = cv2.imread("lokesh.JPG")
-start=(0,0)
-stop=(689,389)
-color=(100,255,100)
-thickness=10
-res_img=cv2.rectangle(image,start,stop,color,thickness)
+res_img=cv2.rectangle(image,(0,0),(689,389),(100,255,100),10)
 cv2.imshow('Image Window', res_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -156,12 +151,8 @@ cv2.destroyAllWindows()
 import cv2
 img = cv2.imread("lokesh.JPG")
 text = "OPENCV DRAWING"
-position = (50, 50)
 font = cv2.FONT_HERSHEY_SIMPLEX
-font_scale = 1
-color = (255, 255, 255) 
-thickness = 2
-res = cv2.putText(img, text, position, font, font_scale, color, thickness, cv2.LINE_AA)
+res = cv2.putText(img, text, (50,50), font,1, (255,255,255),2, cv2.LINE_AA)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -373,5 +364,7 @@ cv2.imwrite('lokesh1.jpg',img)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed  successfully using the python program.
+
+
 
 
